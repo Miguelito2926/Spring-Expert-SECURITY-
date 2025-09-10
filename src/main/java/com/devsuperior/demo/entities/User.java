@@ -10,7 +10,6 @@ import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 
-import java.time.Instant;
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Objects;
@@ -79,6 +78,19 @@ public class User {
 
 	public Set<Role> getRoles() {
 		return roles;
+	}
+
+	public void addRole(Role role) {
+		roles.add(role);
+	}
+
+	public boolean hasRole(String roleName) {
+		for (Role role : roles) {
+			if (role.getAuthority().equals(roleName)) {
+				return true;
+			}
+		}
+			return false;
 	}
 
 	@Override
