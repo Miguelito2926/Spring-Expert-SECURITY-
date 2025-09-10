@@ -1,0 +1,5 @@
+# Created at 2025-09-09T14:21:39.626
+Boot Manifest-JAR contains absolute paths in classpath 'F:\projetos curso coleção java\Coleção Java Spring\Java Spring Expert\Projetos\Projeto sem segurança\spring-boot-oauth2-jwt-demo\password-grant\spring-boot-3-4-3-noauth\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

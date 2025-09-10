@@ -1,0 +1,7 @@
+com\devsuperior\demo\DemoApplication.class
+com\devsuperior\demo\entities\Product.class
+com\devsuperior\demo\repositories\ProductRepository.class
+com\devsuperior\demo\entities\User.class
+com\devsuperior\demo\services\ProductService.class
+com\devsuperior\demo\controllers\ProductController.class
+com\devsuperior\demo\dto\ProductDTO.class
